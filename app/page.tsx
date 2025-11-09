@@ -44,7 +44,7 @@ export default function Home() {
 
       {/* Game Interface */}
       {!loading && (
-        <div className="flex flex-col min-h-[calc(100vh-80px)] max-w-3xl mx-auto px-8">
+        <div className="flex flex-col min-h-[calc(100vh-80px)] max-w-4xl mx-auto px-8">
           {/* Title and Author */}
           <div className="pt-12 pb-8">
             <GameHeader source={source} />
